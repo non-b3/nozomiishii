@@ -1,7 +1,28 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Work.delete_all
+puts 'Deleted all the work data'
+
+work1 = Work.new(
+  id: 1,
+  title: 'RtoU',
+  image_name: 'rtou.png',
+  content:""
+  )
+work1.save
+
+work2 = Work.new(
+  id: 2,
+  title: 'Teach me',
+  image_name: 'rtou.png',
+  content:""
+  )
+work2.save
+
+work3 = Work.new(
+  id: 3,
+  title: 'CV',
+  image_name: 'rtou.png',
+  content:""
+  )
+work3.save
+
+puts "Created #{Work.count} posts"
