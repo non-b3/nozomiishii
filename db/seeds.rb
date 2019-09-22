@@ -12,7 +12,7 @@ work1.save
 work2 = Work.new(
   id: 2,
   title: 'Teach me',
-  image_name: 'rtou.png',
+  image_name: 'teachme.png',
   content:""
   )
 work2.save
@@ -20,7 +20,7 @@ work2.save
 work3 = Work.new(
   id: 3,
   title: 'CV',
-  image_name: 'rtou.png',
+  image_name: 'cv.png',
   content:""
   )
 work3.save
