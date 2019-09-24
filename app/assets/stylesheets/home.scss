@@ -355,3 +355,56 @@ input, textarea {
   margin-bottom:300px;
 }
 
+
+/* cards ================================ */
+.cards {
+  margin: 20px;
+}
+
+.item {
+  width: 33%;
+  padding: 0 15px;
+  float: left;
+}
+
+.item-box {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.rtou {
+  background-image:url("rtou");
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+}
+
+.teachme {
+  background-image:url("teachme");
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+}
+
+
+
+@media (max-width: 1000px) {
+  .header-menus a{
+    width: 10vw;
+  }
+  .item {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .item-box p {
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 27px;
+    text-align: center;
+  }
+  .whotext p {
+    width: 90%;
+    font-size: 27px;
+    padding: 100px 30px;
+  }
+}
