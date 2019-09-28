@@ -3,101 +3,69 @@
     <h2>Nozomi Ishii</h2>
     <p>Dance + Coffee + Coding = Me!!!</p>
   </div>
+</div>
 
-  <div class="atelier">
-    <h3> - Atelier - </h3>
-    <div class="contents-item">
-      <h1>RtoU</h1>
-      <a href="https://rtou.herokuapp.com/" target="_blank"><%= image_tag 'rtou.png', alt:"rtou", class: 'workphoto' %></a>
-
+<div class="atelier">
+  <h3> - Atelier - </h3>
+  <div class="atelier-content">
+    <div class="cards">
+      <a href="https://rtou.herokuapp.com/" target="_blank">
+        <%= image_tag 'rtou.png', alt:"rtou", class: 'card' %>
+      </a>
+      <p>R to U</p>
     </div>
-    <div class="contents-item">
-      <h1>Teach Me</h1>
-      <a href="https://teachmeleagon.herokuapp.com/" target="_blank"><%= image_tag 'teachme.png', alt:"teachme", class: 'workphoto' %></a>
+    <div class="cards">
+      <a href="https://teachmeleagon.herokuapp.com/" target="_blank">
+        <%= image_tag 'teachme.png', alt:"teachme", class: 'card' %>
+      </a>
+      <p>Teach me</p>
     </div>
-    <div class="contents-item">
-      <br>
-      <br>
-      <h2>
-        <br>
-        <br>
-        ...and more coming soon. <br>
-        stay tuned. <br>
-      </h2>
-    </div>
-  </div>
-
-<!--   <div class="atelier">
-    <h3> - Atelier - </h3>
-    <div class="item">
-　　　 <div>
-      <a href="https://rtou.herokuapp.com/" target="_blank" class="item-box"><%= image_tag 'rtou.png', alt:"rtou", class: 'item-box' %></a>
-      </div>
-      <p>RtoU</p>
-    </div>
-    <div class="item">
-　　 <div>
-      <a href="https://teachmeleagon.herokuapp.com/" target="_blank" class="item-box"><%= image_tag 'teachme.png', alt:"teachme", class: 'item-box ' %></a>
-      </div>
-      <p>Teach Me</p>
-    </div>
-    <div class="item">
-      <div class="item-box">
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>
-          ...and more coming soon. <br>
-          stay tuned.
-        </p>
-        </div>
-    </div>
-    <div class="item">
-      <div class="item-box"></div>
-    </div>
-  </div>
-  <br>
-  <br> -->
-  <div class="who">
-    <div class="title">
-      <h3> - Nozomi who? - </h3>
-    </div>
-    <%= image_tag 'profile.jpg', alt:"Nozomi Ishii", class: 'whophoto' %>
-    <div class="whotext">
-      <h1>NOZOMI ISHII</h1>
+    <div class="cards">
       <p>
-        石井希・フロントエンドエンジニア見習い<br>
-        大学在学中にイギリス、カナダ、アメリカに語学留学、大学交換留学。<br>
-        卒業後、オーストラリア、ニュージーランドにワーキングホリデーでカフェでバリスタとして働く。<br>
-        日本人ゼロの環境の中、ヘッドバリスタを任される。<br>
-        ラテアート作りにもりもりとのめり込み2018年3月Coffee fest latte art world championshipに競技者として選出される。
-        自分のカフェを開くのを夢見て、まずは自分でカフェのホームページをつくろうとプログラミングを勉強し始める。そしてハマる。<br>
-        <br>
-        バリスタよりプログラミングの方が楽しくなってしまったのでプログラミング学校　Le Wagon Tokyoにて Rubyを軸としたウェブアプリケーション制作を学ぶ。<br>
-        就活でAppleのTechnical Specialistとして採用。<br>
-        まんまとネームブランドに惹かれプログラミングから一時離れる。<br>
-        <br>
-        Apple Summer Camp にてコーディングを小学生に教えるサポートしながらプログラミング熱が再加熱。<br>
-        独学にてRubyとRailsを中心にweb page製作を学んでいます。<br>
-        React, Reduxもめきめき学びにいっています。<br>
-        フロントエンドに特に魅力を感じでいてawwwards.やCSS WINNERをめざしていきます。<br>
-        よろしくお願いします！
+        ...and more coming soon. <br>
+        stay tuned.
       </p>
     </div>
   </div>
-  <div class="contact-form">
-<!-- 　　 <form action="nozomiishii.jp@gmail.com" method="post" enctype="text/plain"> -->
-    <h3 class="section-title"> -Contact - </h3>
-    <p>Name</p>
-    <input type="text">
-    <p>Email</p>
-    <input type="text">
-    <p>Message</p>
-    <textarea name="" id="" cols="30" rows="10" >まだ送信の機能はできていません...</textarea>
-    <br>
-    <input class='contact-submit' type="submit" value='submit'>
-    <!-- </form> -->
+</div>
+
+<div class="who">
+  <div class="title">
+    <h3> - Nozomi who? - </h3>
   </div>
+  <%= image_tag 'profile.jpg', alt:"Nozomi Ishii", class: 'whophoto' %>
+  <div class="whotext">
+    <h1>NOZOMI ISHII</h1>
+    <p>
+      石井希・フロントエンドエンジニア見習い<br>
+      大学在学中にイギリス、カナダ、アメリカに語学留学、大学交換留学。<br>
+      卒業後、オーストラリア、ニュージーランドにワーキングホリデーでカフェでバリスタとして働く。<br>
+      日本人ゼロの環境の中、ヘッドバリスタを任される。<br>
+      ラテアート作りにもりもりとのめり込み2018年3月Coffee fest latte art world championshipに競技者として選出される。
+      自分のカフェを開くのを夢見て、まずは自分でカフェのホームページをつくろうとプログラミングを勉強し始める。そしてハマる。<br>
+      <br>
+      バリスタよりプログラミングの方が楽しくなってしまったのでプログラミング学校　Le Wagon Tokyoにて Rubyを軸としたウェブアプリケーション制作を学ぶ。<br>
+      就活でAppleのTechnical Specialistとして採用。<br>
+      まんまとネームブランドに惹かれプログラミングから一時離れる。<br>
+      <br>
+      Apple Summer Camp にてコーディングを小学生に教えるサポートしながらプログラミング熱が再加熱。<br>
+      独学にてRubyとRailsを中心にweb page製作を学んでいます。<br>
+      React, Reduxもめきめき学びにいっています。<br>
+      フロントエンドに特に魅力を感じでいてawwwards.やCSS WINNERをめざしていきます。<br>
+      よろしくお願いします！
+    </p>
+  </div>
+</div>
+
+<div class="contact-form">
+  <h3 class="section-title"> -Contact - </h3>
+  <p>Name</p>
+  <input type="text">
+  <p>Email</p>
+  <input type="text">
+  <p>Message</p>
+  <textarea name="" id="" cols="30" rows="10" >まだ送信の機能はできていません...</textarea>
+  <br>
+  <input class='contact-submit' type="submit" value='submit'>
 </div>
 
