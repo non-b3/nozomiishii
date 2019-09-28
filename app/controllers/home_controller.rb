@@ -7,4 +7,7 @@ class HomeController < ApplicationController
 
   def cv
   end
+
+  def test
+  end
 end

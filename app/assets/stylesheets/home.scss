@@ -52,8 +52,10 @@ body {
 /* header ================================ */
 header {
   height: 64px;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .header-logo {
@@ -139,7 +141,9 @@ header {
 }
 
 /* atelier ================================ */
-
+.atelier {
+  height: 100vh;
+}
 .atelier h3 {
   font-size: 50px;
   font-weight: 500;
@@ -152,24 +156,28 @@ header {
 }
 
 .cards{
+  text-align: center;
+}
+
+.card{
   display:inline-block;
   width: 30%;
   padding: 0 15px;
 }
 
-.card{
+.card-icon{
   width: 97%;
   opacity: 1;
   border-radius: 2px;
 }
-.card:hover{
+.card-icon:hover{
   width: 100%;
   opacity: 0.8;
   border-radius: 2px;
   transition: all 0.5s;
 }
 
-.cards p {
+.card p {
   text-align: center;
 }
 

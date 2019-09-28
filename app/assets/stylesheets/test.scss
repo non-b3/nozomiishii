@@ -1,0 +1,60 @@
+.test-header{
+  width: 100vw;
+  height: 100vh;
+}
+
+.test-title{
+  text-align: center;
+  font-size:40px;
+}
+
+.test-content{
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.message1 {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  /* カーソルの形をpointerにしてください */
+  cursor: pointer;
+  /* box-shadowをつけてください */
+  box-shadow: 0 7px #1a7940;
+}
+
+.message1:active {
+  box-shadow: none;
+  position:relative;
+  top: 7px;
+}
+
+
+.message2{
+  background-color: #F25A8C;
+  padding: 15px 40px;
+  /* カーソルの形をpointerにしてください */
+  cursor: pointer;
+  /* box-shadowをつけてください */
+  box-shadow: 0 7px #1a7940;
+}
+
+.message2:active{
+  box-shadow: 0 14px #F25A8C;
+  position: relative;
+  bottom: 7px;
+}
+
+.message3{
+  background-color: blue;
+  padding: 20px;
+  /* カーソルの形をpointerにしてください */
+  cursor: pointer;
+  /* box-shadowをつけてください */
+  border: 7px solid #1a7940;
+  border-radius: 100%;
+}
+
+.message3:active{
+  border-radius: 100%;
+  padding: 40px;
+}
