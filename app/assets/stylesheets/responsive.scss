@@ -1,0 +1,76 @@
+/* media query  ================================ */
+@media all and (max-width: 1000px)  {
+  .card{
+    width: 50%;
+  }
+  .item {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .item-box p {
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .whotext p {
+    width: 90%;
+    font-size: 18px;
+    padding: 100px 30px;
+  }
+  .header-menus a {
+    float: left;
+    font-size: 9px;
+    color: #4E5E2C;
+  }
+  .header-menus a:hover{
+    float: left;
+    font-size: 10px;
+    color: #4E5E2C;
+    transition: all 0.5;
+  }
+}
+
+
+@media all and (max-width: 670px) {
+  .card{
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .item-box p {
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .whotext p {
+    width: 90%;
+    font-size: 18px;
+    padding: 100px 30px;
+  }
+
+  .header-menus{
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    padding-right: 20px;
+  }
+
+  .menu-icon li {
+    line-height: 64px;
+    font-size: 16px;
+    color: #4E5E2C;
+    padding-left: 15px;
+  }
+
+  .menu-icon a {
+    font-size: 16px;
+    color: #4E5E2C;
+  }
+}
+
