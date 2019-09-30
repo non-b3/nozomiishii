@@ -49,6 +49,22 @@ body {
   margin: 0 auto;
 }
 
+.heading h3 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 20px;
+  padding: 200px 0 100px;
+  text-align: center;
+  min-height: 100%;
+}
+
+.heading h6 {
+  font-size: 24px;
+  text-align: center;
+}
+
 /* header ================================ */
 header {
   height: 64px;
@@ -145,17 +161,6 @@ header {
   height: 50vh;
 }
 
-.lab h3 {
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
-  margin-bottom: 20px;
-  padding: 200px 0 100px;
-  text-align: center;
-  min-height: 100%;
-}
-
 .go-to-lab{
   display: inline-block;
   background-color:#4E5E2C;
@@ -185,7 +190,6 @@ header {
   padding:50vh 50vw;
   }
 
-
 /* atelier ================================ */
 .clear{
   clear: left;
@@ -197,30 +201,13 @@ header {
   text-align: center;
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.atelier h3 {
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
-  margin-bottom: 20px;
-  padding: 200px 0 100px;
-  text-align: center;
-  min-height: 100%;
-}
-
 .cards{
   text-align: center;
 }
 
 .card{
   float: left;
-  width: 33%;
+  width: 30%;
 }
 
 .card-icon{
@@ -253,28 +240,17 @@ header {
   background-size: cover;
 }
 
-
-
 /* who ================================ */
 .who {
   text-align: center;
 }
 
-.who h3 {
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
-  margin-top: 250px;
-  margin-bottom: 50px;
-  text-align: center;
-  min-height: 100%;
-}
 .whophoto {
   height:20%;
   width:20%;
   border-radius:50%;
 }
+
 .whotext h1 {
   font-size:26px;
   text-align: center;
@@ -287,9 +263,6 @@ header {
   font-size: 16px;
   padding: 50px 300px 300px 300px;
 }
-
-
-
 
 /* about ================================ */
 .about-main {
@@ -385,7 +358,6 @@ header {
 }
 
 /* cv ================================ */
-
 .cv{
   width: 50vw;
   text-align: center;
@@ -394,17 +366,6 @@ header {
 }
 
 /* contact ================================ */
-.contact-form h3 {
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
-  margin-top: 250px;
-  margin-bottom: 50px;
-  text-align: center;
-  min-height: 100%;
-}
-
 .contact-form {
   padding-top: 100px;
   text-align: center
@@ -436,6 +397,5 @@ input, textarea {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* displayをnoneに指定してください */
   display:none;
 }
