@@ -16,6 +16,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="shortcut icon" href="<%= image_path 'favcon.png'%>">
     <link rel="apple-touch-icon" sizes="180x180" href="<%= image_path 'favcon.png'%>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
 
   <header>
@@ -41,13 +42,9 @@
       <li>
         <a href="https://github.com/non-b3" target="_blank">GitHub</a>
       </li>
-<!--       <li>
-        <%= link_to("CV", "/cv") %>
-      </li> -->
     </ul>
   </header>
     <%= yield %>
-  </body>
   <footer>
     <div class="container">
       <ul class="menu-icon">
@@ -69,10 +66,14 @@
         <li>
           <a href="https://github.com/non-b3" target="_blank">GitHub</a>
         </li>
-        <li>
-          <%= link_to("CV", "/cv") %>
-        </li>
       </ul>
     </div>
   </footer>
+  <script>
+    $(function() {
+      $('.header-logo').css('display', 'none').fadeIn(3000);
+      $('li').css('display', 'none').fadeIn(3200);
+    });
+  </script>
+  </body>
 </html>

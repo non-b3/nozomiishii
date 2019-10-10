@@ -1,5 +1,5 @@
 <div class="main">
-  <div class="top-message top-main">
+  <div class="top-main">
     <h2>Nozomi Ishii</h2>
     <p>Dance + Coffee + Coding = Me!!!</p>
   </div>
@@ -7,13 +7,13 @@
 
 
 <div class="lab">
-  <div class="container">
-    <div class="heading">
-      <h3> - Fancy coming see my lab? - </h3>
-    </div>
-    <div class="btn-lab" style="text-align: center">
-      <a href="/test" class="go-to-lab">GO!!</a>
-    </div>
+  <div class="heading">
+    <h3> - Fancy coming see my lab? - </h3>
+  </div>
+  <div style="text-align: center">
+    <a href="/test" class="go-to-lab">GO!!</a>
+  </div>
+  <div class="previous">
   </div>
 </div>
 
@@ -90,4 +90,11 @@
   <br>
   <input class='contact-submit' type="submit" value='submit'>
 </div>
+
+<script>
+  $(function() {
+    $('h2').css('display', 'none').fadeIn(3000);
+    $('p').css('display', 'none').fadeIn(3100);
+  });
+</script>
 
