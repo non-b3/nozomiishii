@@ -1,7 +1,7 @@
 /* reset ================================ */
 $olive: #4E5E2C;
 $black: #2d3133;
-$gold: #DE941B;
+$blue: #00818A;
 
 *, *:before, *:after{
   box-sizing: border-box;
@@ -109,7 +109,7 @@ header {
 /* top ================================ */
 .news{
   width:100vw;
-  color: $gold;
+  color: $blue;
   position: absolute;
   top:64px;
   height: 40px;
