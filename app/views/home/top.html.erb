@@ -3,31 +3,28 @@
 </div>
 <div class="main">
   <div class="title">
-    <h2>Nozomi Ishii</h2>
+    <h1>Nozomi Ishii</h1>
     <p>Dance + Coffee + Coding = Me!!!</p>
   </div>
 </div>
 
 
 <div class="lab">
-  <div class="heading">
-    <h3> - Fancy coming see my lab? - </h3>
+  <div class="title">
+    <h2> - KUSAYARI - </h2>
+    <p><span style="color:#f6b93b;">NEW!!</span> Fancy coming see my code lab?</p>
   </div>
-<!--   <div style="text-align: center">
-    <a href="/test" class="go-to-lab">GO!!</a>
-  </div> -->
-
-   <div class="code">
-    <a href="/codes/1">
-      <%= image_tag '1.png', alt:"1", class: 'code' %>
+   <div class="codes">
+    <a href="/codes/1" >
+      <img src="/assets/codes/1.png" alt="1">
     </a>
    </div>
 </div>
 
 
 <div class="atelier">
-  <div class="heading">
-    <h3> - Atelier - </h3>
+  <div class="title">
+    <h2> - Atelier - </h2>
   </div>
   <div class="cards">
     <div class="card">
@@ -56,8 +53,8 @@
 
 
 <div class="who">
-  <div class="heading">
-    <h3> - Nozomi who? - </h3>
+  <div class="title">
+    <h2> - Nozomi who? - </h2>
   </div>
   <%= image_tag 'profile.jpg', alt:"Nozomi Ishii", class: 'whophoto' %>
   <div class="whotext">
@@ -85,8 +82,8 @@
 
 
 <div class="contact-form">
-  <div class="heading">
-    <h3> -Contact - </h3>
+  <div class="titile">
+    <h2> -Contact - </h2>
   </div>
   <p>Name</p>
   <input type="text">
@@ -100,8 +97,8 @@
 
 <script>
   $(function() {
-    $('h2').css('display', 'none').fadeIn(3000);
-    $('p').css('display', 'none').fadeIn(3100);
+    $('h1').css('display', 'none').fadeIn(3000);
+    $('.main p').css('display', 'none').fadeIn(3100);
   });
 </script>
 
