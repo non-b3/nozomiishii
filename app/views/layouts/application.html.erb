@@ -48,8 +48,8 @@
   </header>
     <%= yield %>
   <footer>
-    <div class="container">
-      <ul class="menu-icon">
+    <div class="links">
+      <ul>
         <li>
           <%= link_to("About", "/about") %>
         </li>
@@ -60,15 +60,18 @@
           <a href="https://www.instagram.com/nozomiishii.jp/" target="_blank">Instagram</a>
         </li>
         <li>
-          <a href="https://github.com/non-b3" target="_blank">GitHub</a>
+          <a href="https://github.com/nozomiishii" target="_blank">GitHub</a>
         </li>
       </ul>
+    </div>
+    <div id="copyright">
+      <p>© 2019 Nozomi Ishii</p>
     </div>
   </footer>
   <script>
     $(function() {
       $('.header-logo').css('display', 'none').fadeIn(3000);
-      $('li').css('display', 'none').fadeIn(3200);
+      $('.header-menus li').css('display', 'none').fadeIn(3200);
     });
   </script>
   </body>

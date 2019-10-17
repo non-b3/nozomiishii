@@ -1,4 +1,31 @@
 /* media query  ================================ */
+$olive: #4E5E2C;
+$orenge: #DEAF3F;
+$black: #5C5C5C;
+$blue: #00818A;
+$pink:#F18A77;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  font-size: 16px;
+}
 /* iPad  ================================ */
 @media all and (max-width: 1000px)  {
 /* atelier ================================ */
@@ -32,19 +59,22 @@
   .header-menus{
     display: none;
   }
-
-  .menu-icon {
-    display: block;
-    padding-right: 20px;
-    li {
-      line-height: 64px;
-      font-size: 16px;
+  footer{
+    .links ul{
+      height: 40vh;
       color: #4E5E2C;
-      padding-left: 15px;
+      font-size: 25px;
+      display:flex;
+      flex-wrap:wrap;
+      border: 1px solid red;
+      bordr
+      a {
+        flex:auto;
+        border: 1px solid red;
+      }
     }
-    a {
-      font-size: 16px;
-      color: #4E5E2C;
+    #copyright p{
+      text-align: center;
     }
   }
 
