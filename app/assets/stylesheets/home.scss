@@ -163,6 +163,19 @@ header {
       padding:50vh 50vw;
     }
   }
+  a{
+    display:flex;
+    flex-wrap: wrap;
+    height: 30vh;
+
+  }
+  .code{
+    flex:auto;
+    width:200px;
+    height: 160px;
+    display: flex;
+    margin: 50px;
+  }
 }
 
 
