@@ -134,7 +134,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
+    // border: 1px solid red;
     p{
       text-align: center;
     }
@@ -142,12 +142,21 @@ header {
   .codes{
     display: flex;
     border: 1px solid red;
+    justify-content:center;
     height: 50vh;
-    img{
-      width: 30vw;
-      &:hover{
-        transform: rotateY(360deg);
-        transition: 2s;
+    .code{
+      display:flex;
+      flex-direction: column;
+      img{
+        width: 20vw;
+        &:hover{
+          transform: translateY(-10px);
+          transition:0.5s;
+        }
+      }
+      p{
+        text-align: center;
+        display:none;
       }
     }
   }

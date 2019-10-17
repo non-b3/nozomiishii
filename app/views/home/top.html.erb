@@ -13,40 +13,14 @@
   <div class="title">
     <h2> - KUSAYARI - </h2>
     <p><span style="color:#f6b93b;">NEW!!</span> Fancy coming see my code lab?</p>
+ <!--    <h6>毎日クソゲーを更新していきます。そう、GitHubへの草やりです。</h6> -->
   </div>
    <div class="codes">
-    <a href="/codes/1" >
-      <img src="/assets/codes/1.png" alt="1">
-    </a>
-   </div>
-</div>
-
-
-<div class="atelier">
-  <div class="title">
-    <h2> - Atelier - </h2>
-  </div>
-  <div class="cards">
-    <div class="card">
-      <a href="https://rtou.herokuapp.com/" target="_blank">
-        <%= image_tag 'rtou.png', alt:"rtou", class: 'card-icon' %>
+    <div class="code">
+      <a href="/codes/1.html" >
+        <img src="/assets/codes/1.png" alt="1">
       </a>
-      <p>R to U</p>
-    </div>
-    <div class="card">
-      <a href="https://teachmeleagon.herokuapp.com/" target="_blank">
-        <%= image_tag 'teachme.png', alt:"teachme", class: 'card-icon' %>
-      </a>
-      <p>Teach me</p>
-    </div>
-    <div class="card">
-      <br>
-      <br>
-      <br>
-      <p>
-        ...and more coming soon. <br>
-        stay tuned.
-      </p>
+      <p>Click Number</p>
     </div>
   </div>
 </div>
@@ -81,6 +55,35 @@
 </div>
 
 
+<div class="atelier">
+  <div class="title">
+    <h2> - Atelier - </h2>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <a href="https://rtou.herokuapp.com/" target="_blank">
+        <%= image_tag 'rtou.png', alt:"rtou", class: 'card-icon' %>
+      </a>
+      <p>R to U</p>
+    </div>
+    <div class="card">
+      <a href="https://teachmeleagon.herokuapp.com/" target="_blank">
+        <%= image_tag 'teachme.png', alt:"teachme", class: 'card-icon' %>
+      </a>
+      <p>Teach me</p>
+    </div>
+    <div class="card">
+      <br>
+      <br>
+      <br>
+      <p>
+        ...and more coming soon. <br>
+        stay tuned.
+      </p>
+    </div>
+  </div>
+</div>
+
 <div class="contact-form">
   <div class="titile">
     <h2> -Contact - </h2>
@@ -99,6 +102,10 @@
   $(function() {
     $('h1').css('display', 'none').fadeIn(3000);
     $('.main p').css('display', 'none').fadeIn(3100);
+
+    $('.code').mouseover(function(){
+      $(this).find('p').fadeIn()
+    })
   });
 </script>
 
