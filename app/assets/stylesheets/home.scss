@@ -94,13 +94,13 @@ header {
 /* top ================================ */
 .news{
   width:100vw;
-  color: $orenge;
+  color: white;
   position: absolute;
   top:64px;
   height: 40px;
   line-height: 40px;
   text-align:center;
-  background-color:rgba(255, 255, 255, 0.8);
+  background-color:rgba(222, 175, 63, 0.8);
 }
 .main {
   display:flex;
@@ -247,6 +247,7 @@ header {
 
 .about-img {
   width: 84vw;
+
 }
 
 /* cv ================================ */
