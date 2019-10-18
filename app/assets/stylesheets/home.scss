@@ -146,7 +146,7 @@ header {
 
   .codes{
     display: flex;
-    border: 1px solid red;
+    // border: 1px solid red;
     justify-content:center;
     align-items: flex-start;
     height: 50vh;
@@ -158,6 +158,7 @@ header {
         width: 20vw;
         height: 20vh;
         &:hover{
+          opacity: 0.9;
           transform: translate(10px, -10px);
           transition:0.5s;
         }
@@ -307,7 +308,7 @@ footer {
     display: flex;
     height:10vh;
     line-height: 10vh;
-    border: 1px solid red;
+    // border: 1px solid red;
     li{
       margin: 5px;
       padding: 25px;
@@ -322,7 +323,7 @@ footer {
     align-content: flex-end;
     p{
       margin-top: 5vh;
-      border: 1px solid red;
+      // border: 1px solid red;
     }
   }
 }
@@ -330,14 +331,14 @@ footer {
 .paypal{
   background-color: $orenge;
   border-radius: 5px;
-  box-shadow: 0 7px #DE941B;
+  box-shadow: 0 7px #C29301;
   &:hover{
-    opacity: 0.9;
-  }
-  &:active{
     box-shadow: none;
     position: relative;
     top:6px;
+  }
+  &:active{
+    opacity: 0.8;
   }
   a{
     color:white;
