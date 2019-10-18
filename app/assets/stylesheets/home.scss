@@ -156,6 +156,7 @@ header {
       flex-direction: column;
       img{
         width: 20vw;
+        height: 20vh;
         &:hover{
           transform: translate(10px, -10px);
           transition:0.5s;
