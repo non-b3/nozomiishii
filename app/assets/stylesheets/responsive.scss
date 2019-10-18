@@ -77,16 +77,30 @@ a {
       text-align: center;
     }
   }
-
-
-/* atelier ================================ */
-  .cards{
-    flex-direction: column;
+// codes====================================
+  .codes{
+    display: flex;
+    border: 1px solid red;
+    height: 50vh;
+    paddging: 0;
+    .code{
+      display:flex;
+      flex-direction: column;
+      img{
+        width: 20vw;
+        &:hover{
+          transform: translate(10px, -10px);
+          transition:0.5s;
+        }
+      }
+      p{
+        text-align: center;
+        display:none;
+      }
+    }
   }
 
-  .card{
-    width: 100%;
-  }
+
 
 /* who ================================ */
   .whophoto {
@@ -98,6 +112,14 @@ a {
     width: 90%;
     font-size: 18px;
     padding: 100px 30px;
+  }
+/* atelier ================================ */
+  .cards{
+    flex-direction: column;
+  }
+
+  .card{
+    width: 100%;
   }
 /* contact ================================ */
   input, textarea {

@@ -13,14 +13,14 @@
   <div class="title">
     <h2> - KUSAYARI - </h2>
     <p><span style="color:#f6b93b;">NEW!!</span> Fancy coming see my code lab?</p>
- <!--    <h6>毎日クソゲーを更新していきます。そう、GitHubへの草やりです。</h6> -->
+    <h6>毎日クソゲーを更新していきます。そう、GitHubへの草やりです。</h6>
   </div>
-   <div class="codes">
+  <div class="codes">
     <div class="code">
       <a href="/codes/1.html" >
-        <img src="/assets/codes/1.png" alt="1">
+        <img src="/assets/codes/1.png" alt="1" >
       </a>
-      <p>Click Number</p>
+      <p>20th OCT - Click Number -</p>
     </div>
   </div>
 </div>
@@ -100,12 +100,25 @@
 
 <script>
   $(function() {
-    $('h1').css('display', 'none').fadeIn(3000);
-    $('.main p').css('display', 'none').fadeIn(3100);
+  $('h1').css('display', 'none').fadeIn(3000);
+  $('.main p').css('display', 'none').fadeIn(3100);
 
-    $('.code').mouseover(function(){
-      $(this).find('p').fadeIn()
-    })
+  // titile h6 is showing up
+  $('.title').hover(function(){
+    $(this).find('h6').show(1500)
+  }, function(){
+    $(this).find('h6').fadeOut();
+
   });
+
+  // code p are showing up
+  $('.code').hover(function(){
+    $(this).find('p').fadeIn();
+  }, function(){
+    $(this).find('p').fadeOut();
+  });
+});
 </script>
+
+
 

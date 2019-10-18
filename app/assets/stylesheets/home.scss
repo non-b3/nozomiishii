@@ -134,23 +134,30 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // border: 1px solid red;
     p{
       text-align: center;
     }
+    h6{
+      text-align: center;
+      padding-top:5vh;
+      display:none;
+    }
   }
+
   .codes{
     display: flex;
     border: 1px solid red;
     justify-content:center;
+    align-items: flex-start;
     height: 50vh;
+    paddging:20px;
     .code{
       display:flex;
       flex-direction: column;
       img{
         width: 20vw;
         &:hover{
-          transform: translateY(-10px);
+          transform: translate(10px, -10px);
           transition:0.5s;
         }
       }
@@ -294,6 +301,45 @@ footer {
   align-items:center;
   .links ul{
     display:none;
+  }
+  #tip ul{
+    display: flex;
+    height:10vh;
+    line-height: 10vh;
+    border: 1px solid red;
+    li{
+      margin: 5px;
+      padding: 25px;
+      display:flex;
+      align-items: center;
+    }
+  }
+  #copyright {
+    height: 10vh;
+    display:flex;
+    flex-direction:column;
+    align-content: flex-end;
+    p{
+      margin-top: 5vh;
+      border: 1px solid red;
+    }
+  }
+}
+
+.paypal{
+  background-color: $orenge;
+  border-radius: 5px;
+  box-shadow: 0 7px #DE941B;
+  &:hover{
+    opacity: 0.9;
+  }
+  &:active{
+    box-shadow: none;
+    position: relative;
+    top:6px;
+  }
+  a{
+    color:white;
   }
 }
 
