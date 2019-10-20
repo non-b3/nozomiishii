@@ -1,28 +1,29 @@
-Work.delete_all
-puts 'Deleted all the work data'
+Code.delete_all
+puts 'Deleted all the code data'
 
-work1 = Work.new(
+code1 = Code.new(
   id: 1,
-  title: 'RtoU',
-  image_name: 'rtou.png',
+  title: '10_18',
+  image_name: '/assets/1.png',
   content:""
   )
-work1.save
+wode1.save
 
-work2 = Work.new(
+code2 = Code.new(
   id: 2,
-  title: 'Teach me',
-  image_name: 'teachme.png',
+  title: '10_19',
+  image_name: '/assets/2.png',
   content:""
   )
-work2.save
+wode2.save
 
-work3 = Work.new(
+code3 = Code.new(
   id: 3,
-  title: 'CV',
-  image_name: 'cv.png',
+  title: '10_20',
+  image_name: '/assets/3.png',
   content:""
   )
-work3.save
+code3.save
 
-puts "Created #{Work.count} posts"
+puts "Created #{Code.count} posts"
+

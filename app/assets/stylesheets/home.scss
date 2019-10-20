@@ -1,10 +1,14 @@
 /* reset ================================ */
 $olive: #4E5E2C;
-$black: #2d3133;
+$orenge: #DEAF3F;
+$black: #5C5C5C;
 $blue: #00818A;
+$pink:#F18A77;
 
-*, *:before, *:after{
+*{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -15,28 +19,12 @@ html {
 
 ul, li {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 a {
   text-decoration: none;
   color: $black;
   font-size: 16px;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
-input {
-  background-color: transparent;
-  outline-width: 0;
-}
-
-form input[type="submit"] {
-  border: none;
-  cursor: pointer;
 }
 
 /* common layout ================================ */
@@ -53,11 +41,8 @@ body {
   margin: 0 auto;
 }
 
-.heading h3 {
-  font-size: 50px;
-  font-weight: 500;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
+.title h2 {
+  font-size: 40px;
   margin-bottom: 20px;
   text-align: center;
   min-height: 100%;
@@ -109,20 +94,20 @@ header {
 /* top ================================ */
 .news{
   width:100vw;
-  color: $blue;
+  color: white;
   position: absolute;
   top:64px;
   height: 40px;
   line-height: 40px;
   text-align:center;
-  background-color:rgba(255, 255, 255, 0.8);
+  background-color:rgba(222, 175, 63, 0.8);
 }
 .main {
   display:flex;
   height: 100vh;
   width: 100vw;
   align-items: center;
-  background-image:url('https://picsum.photos/1920/1080/?random');
+  background-image:url('start');
   background-position: center 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -130,12 +115,11 @@ header {
   .title{
     width:100%;
     text-align: center;
-    h2 {
+    h1 {
       font-size: 70px;
       font-weight: 500;
       line-height: 1.3;
       -webkit-font-smoothing: antialiased;
-      margin-bottom: 20px;
     }
     p {
       font-size: 24px;
@@ -145,22 +129,45 @@ header {
 
 /* lab ================================ */
 .lab{
-  margin-bottom: 100px;
-  .go-to-lab{
-    display: inline-block;
-    background-color:$olive;
-    color: white;
-    padding: 15px 40px;
-    text-align: center;
-    border-radius: 2px;
-    &:hover{
-      opacity: 0.9;
-      padding:18px 43px;
-      transition:1s all ease;
+  padding-bottom: 100px;
+  .title{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+      text-align: center;
     }
-    &:active{
-      opacity: 0.8;
-      padding:50vh 50vw;
+    h6{
+      text-align: center;
+      padding-top:5vh;
+      display:none;
+    }
+  }
+
+  .codes{
+    display: flex;
+    // border: 1px solid red;
+    justify-content:center;
+    align-items: flex-start;
+    paddging:20px;
+    .code{
+      display:flex;
+      flex-direction: column;
+      img{
+        box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+        width: 20vw;
+        height: 180px;
+        &:hover{
+          opacity: 0.9;
+          transform: translate(10px, -10px);
+          transition:0.5s;
+        }
+      }
+      p{
+        text-align: center;
+        display:none;
+      }
     }
   }
 }
@@ -259,6 +266,7 @@ header {
 
 .about-img {
   width: 84vw;
+
 }
 
 /* cv ================================ */
@@ -290,10 +298,51 @@ input, textarea {
 }
 
 /* footer ================================ */
-.menu-icon {
-  color: $olive;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display:none;
+footer {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  .links ul{
+    display:none;
+  }
+  #tip ul{
+    display: flex;
+    height:10vh;
+    line-height: 10vh;
+    // border: 1px solid red;
+    li{
+      margin: 5px;
+      padding: 25px;
+      display:flex;
+      align-items: center;
+    }
+  }
+  #copyright {
+    height: 10vh;
+    display:flex;
+    flex-direction:column;
+    align-content: flex-end;
+    p{
+      margin-top: 5vh;
+      // border: 1px solid red;
+    }
+  }
 }
+
+.paypal{
+  background-color: $orenge;
+  border-radius: 5px;
+  box-shadow: 0 7px #C29301;
+  &:hover{
+    box-shadow: none;
+    position: relative;
+    top:6px;
+  }
+  &:active{
+    opacity: 0.8;
+  }
+  a{
+    color:white;
+  }
+}
+

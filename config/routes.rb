@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  get 'works/index' => 'works#index'
-  get 'works/:id' => 'works#show'
-  get 'test' => 'home#test'
+  get 'codes/index' => 'codes#index'
+  get 'codes/:id' => 'codes#show'
+
   get '/' => 'home#top'
-  # get 'cv' => 'home#cv'
+
   get 'about' => 'home#about'
 end

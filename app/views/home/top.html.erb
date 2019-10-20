@@ -1,59 +1,62 @@
 <div class="news">
-  <p>news: new contents are coming soon!!</p>
+  <p>NEWS: The new content has come. check out KUSAYARI!!</p>
 </div>
 <div class="main">
   <div class="title">
-    <h2>Nozomi Ishii</h2>
-    <p>Dance + Coffee + Coding = Me!!!</p>
+    <h1>Nozomi Ishii</h1>
+    <p>Dance + Art + Code = Me!!!</p>
   </div>
 </div>
-
 
 <div class="lab">
-  <div class="heading">
-    <h3> - Fancy coming see my lab? - </h3>
+  <div class="title">
+    <h2> - KUSAYARI - </h2>
+    <p><span style="color:#f6b93b;">NEW!!</span> Fancy coming see my code lab?</p>
+    <h6>毎日クソゲーや作品を更新していきます。そう、GitHubへの草やりです。</h6>
   </div>
-  <div style="text-align: center">
-    <a href="/test" class="go-to-lab">GO!!</a>
-  </div>
-  <div class="previous">
-  </div>
-</div>
-
-
-<div class="atelier">
-  <div class="heading">
-    <h3> - Atelier - </h3>
-  </div>
-  <div class="cards">
-    <div class="card">
-      <a href="https://rtou.herokuapp.com/" target="_blank">
-        <%= image_tag 'rtou.png', alt:"rtou", class: 'card-icon' %>
+  <div class="codes">
+<!--     <div class="code">
+      <a href="https://nozomiishii.github.io/codeLab/day2" target="_blank">
+        <img src="/assets/codes/day2.png" alt="3" >
       </a>
-      <p>R to U</p>
+      <p>22st OCT / Day2</p>
+      <p>- <%= @code2 %> -</p>
     </div>
-    <div class="card">
-      <a href="https://teachmeleagon.herokuapp.com/" target="_blank">
-        <%= image_tag 'teachme.png', alt:"teachme", class: 'card-icon' %>
+    <div class="code">
+      <a href="https://nozomiishii.github.io/codeLab/day1" target="_blank">
+        <img src="/assets/codes/day1.png" alt="2" >
       </a>
-      <p>Teach me</p>
+      <p>21th OCT / Day 1</p>
+      <p>- <%= @code1 %> -</p>
     </div>
-    <div class="card">
-      <br>
-      <br>
-      <br>
-      <p>
-        ...and more coming soon. <br>
-        stay tuned.
-      </p>
+    <div class="code">
+      <a href="https://nozomiishii.github.io/codeLab/day0" target="_blank">
+        <img src="/assets/codes/day0.png" alt="1" >
+      </a>
+      <p>20th OCT / Day 0</p>
+      <p>- <%= @code0 %> -</p>
+    </div>
+    <div class="code">
+      <a href="https://nozomiishii.github.io/codeLab/day0" target="_blank">
+        <img src="/assets/codes/day0.png" alt="1" >
+      </a>
+      <p>20th OCT / Day 0</p>
+      <p>- <%= @code0 %> -</p>
+    </div> -->
+    <div class="code">
+      <a href="https://nozomiishii.github.io/codeLab/day0" target="_blank">
+        <img src="/assets/codes/day0.png" alt="1" >
+      </a>
+      <p>20th OCT / Day 0</p>
+      <p>- <%= @code0 %> -</p>
     </div>
   </div>
 </div>
 
 
 <div class="who">
-  <div class="heading">
-    <h3> - Nozomi who? - </h3>
+  <div class="title">
+    <h2> - Nozomi who? - </h2>
   </div>
   <%= image_tag 'profile.jpg', alt:"Nozomi Ishii", class: 'whophoto' %>
   <div class="whotext">
@@ -80,9 +83,43 @@
 </div>
 
 
-<div class="contact-form">
-  <div class="heading">
-    <h3> -Contact - </h3>
+<div class="atelier">
+  <div class="title">
+    <h2> - Atelier - </h2>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <a href="https://rtou.herokuapp.com/" target="_blank">
+        <%= image_tag 'rtou.png', alt:"rtou", class: 'card-icon' %>
+      </a>
+      <p>R to U</p>
+    </div>
+    <div class="card">
+      <a href="https://teachmeleagon.herokuapp.com/" target="_blank">
+        <%= image_tag 'teachme.png', alt:"teachme", class: 'card-icon' %>
+      </a>
+      <p>Teach me</p>
+    </div>
+    <div class="card">
+      <br>
+      <br>
+      <br>
+      <p>
+        ...and more coming soon. <br>
+        stay tuned.
+      </p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- <div class="contact-form">
+  <div class="titile">
+    <h2> -Contact - </h2>
   </div>
   <p>Name</p>
   <input type="text">
@@ -92,12 +129,26 @@
   <textarea name="" id="" cols="30" rows="10" >まだ送信の機能はできていません...</textarea>
   <br>
   <input class='contact-submit' type="submit" value='submit'>
-</div>
+</div> -->
 
 <script>
   $(function() {
-    $('h2').css('display', 'none').fadeIn(3000);
-    $('p').css('display', 'none').fadeIn(3100);
+  $('h1').css('display', 'none').fadeIn(3000);
+  $('.main p').css('display', 'none').fadeIn(3100);
+
+  // titile h6 is showing up
+  $('.title').hover(function(){
+    $(this).find('h6').show(2000)
   });
+
+  // code p are showing up
+  $('.code').hover(function(){
+    $(this).find('p').fadeIn();
+  }, function(){
+    $(this).find('p').fadeOut();
+  });
+});
 </script>
+
+
 

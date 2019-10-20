@@ -1,4 +1,31 @@
 /* media query  ================================ */
+$olive: #4E5E2C;
+$orenge: #DEAF3F;
+$black: #5C5C5C;
+$blue: #00818A;
+$pink:#F18A77;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  font-size: 16px;
+}
 /* iPad  ================================ */
 @media all and (max-width: 1000px)  {
 /* atelier ================================ */
@@ -17,6 +44,13 @@
 /* iPhone  ================================ */
 @media all and (max-width: 670px) {
 /* common layout ================================ */
+  body{
+    display:flex;
+    flex-direction: column;
+  }
+  .news p{
+    font-size: 11px;
+  }
   .heading h3 {
     font-size: 34px;
     font-weight: 500;
@@ -32,31 +66,59 @@
   .header-menus{
     display: none;
   }
-
-  .menu-icon {
-    display: block;
-    padding-right: 20px;
-    li {
-      line-height: 64px;
-      font-size: 16px;
+  footer{
+    .links ul{
+      height: 40vh;
       color: #4E5E2C;
-      padding-left: 15px;
+      font-size: 25px;
+      display:flex;
+      flex-direction:column;
+      justify-content: space-around;
+      padding:10px;
+      a {
+        flex:auto;
+        // border: 1px solid red;
+      }
     }
-    a {
-      font-size: 16px;
-      color: #4E5E2C;
+    #copyright p{
+      text-align: center;
+    }
+  }
+// codes====================================
+  .lab{
+    min-height: 100vh;
+    .codes{
+      display: flex;
+      flex-direction:column;
+      // border: 1px solid red;
+      width: 100vw;
+      paddging: 0;
+      .code {
+        // border: 1px solid red;
+        flex:auto;
+        width:100vw;
+        display:flex;
+        flex-direction: column;
+        img{
+          // border: 1px solid red;
+          flex:auto;
+          width: 100% !important;
+          &:hover{
+            transform: translate(10px, -10px);
+            transition:0.5s;
+          }
+        }
+        p{
+          // border: 1px solid red;
+          text-align: center;
+          display:block !important;
+        }
+      }
     }
   }
 
 
-/* atelier ================================ */
-  .cards{
-    flex-direction: column;
-  }
 
-  .card{
-    width: 100%;
-  }
 
 /* who ================================ */
   .whophoto {
@@ -68,6 +130,14 @@
     width: 90%;
     font-size: 18px;
     padding: 100px 30px;
+  }
+/* atelier ================================ */
+  .cards{
+    flex-direction: column;
+  }
+
+  .card{
+    width: 100%;
   }
 /* contact ================================ */
   input, textarea {

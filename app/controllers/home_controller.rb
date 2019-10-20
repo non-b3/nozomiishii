@@ -1,5 +1,8 @@
 class HomeController < ApplicationController
   def top
+      @code0 = 'theBeginning'
+      @code1 = 'clickNumber'
+      @code2 = 'reasureBoxes'
   end
 
   def about
