@@ -155,8 +155,9 @@ header {
       display:flex;
       flex-direction: column;
       img{
+        box-shadow: 0 2px 1px rgba(0,0,0,0.1);
         width: 20vw;
-        height: 20vh;
+        height: 180px;
         &:hover{
           opacity: 0.9;
           transform: translate(10px, -10px);
