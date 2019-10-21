@@ -2,6 +2,10 @@ Code.delete_all
 puts 'Deleted all the code data'
 
 [
+  # ['6', '26th OCT', 'adventure'],
+  # ['5', '25th OCT', 'carRasing2'],
+  # ['4', '24th OCT', 'carRasing'],
+  # ['3', '23ed OCT', 'treasureBoxes2'],
   ['2', '22nd OCT', 'treasureBoxes'],
   ['1', '21st OCT', 'clickNumber'],
   ['0', '20th OCT', 'kusayari lounched']
