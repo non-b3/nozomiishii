@@ -15,45 +15,17 @@
     <h6>毎日いいかんじなゴミページを更新していきます。そう、GitHubへの草やりです。</h6>
   </div>
   <div class="codes">
-<!--     <div class="code">
-      <a href="https://nozomiishii.github.io/codeLab/day0" target="_blank">
-        <img src="/assets/codes/day0.png" alt="1" >
-      </a>
-      <p>20th OCT / Day 0</p>
-      <p>- <%= @code0 %> -</p>
-    </div>
-    <div class="code">
-      <a href="https://nozomiishii.github.io/codeLab/day0" target="_blank">
-        <img src="/assets/codes/day0.png" alt="1" >
-      </a>
-      <p>20th OCT / Day 0</p>
-      <p>- <%= @code0 %> -</p>
-    </div> -->
-    <div class="code">
-      <a href="https://nozomiishii.github.io/codeLab/day2" target="_blank">
-        <img src="/assets/codes/day2.png" alt="2" >
-      </a>
-      <p>22st OCT / Day2</p>
-      <p>- <%= @code2 %> -</p>
-    </div>
-    <div class="code">
-      <a href="https://nozomiishii.github.io/codeLab/day1" target="_blank">
-        <img src="/assets/codes/day1.png" alt="1" >
-      </a>
-      <p>21th OCT / Day 1</p>
-      <p>- <%= @code1 %> -</p>
-    </div>
-
-    <div class="code">
-      <a href="https://nozomiishii.github.io/codeLab/day0" target="_blank">
-        <img src="../assets/codes/day0.png" alt="0" >
-      </a>
-      <p>20th OCT / Day 0</p>
-      <p>- <%= @code0 %> -</p>
-    </div>
+    <% @codes.each do |code| %>
+      <div class="code">
+        <a href="https://nozomiishii.github.io/codeLab/day<%= code.id %>" target="_blank">
+          <img src="../assets/codes/day<%= code.id %>.png" alt="<%= code.id %>" >
+        </a>
+        <p><%= code.date %> / Day <%= code.id %></p>
+        <p>- <%= code.title %> -</p>
+      </div>
+    <% end %>
   </div>
 </div>
-
 
 <div class="who">
   <div class="title">

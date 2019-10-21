@@ -1,23 +1,16 @@
 Code.delete_all
 puts 'Deleted all the code data'
 
-code1 = Code.new(
-  id: 0,
-  title: 'Kusayari lounched'
+[
+  ['2', '22nd OCT', 'treasureBoxes'],
+  ['1', '21st OCT', 'clickNumber'],
+  ['0', '20th OCT', 'kusayari lounched']
+].each do |id, date, title|
+  Code.create!(
+    { id: id, date: date, title: title }
   )
-code1.save
-
-code2 = Code.new(
-  id: 1,
-  title: 'clickNumber'
-  )
-code2.save
-
-code3 = Code.new(
-  id: 2,
-  title: 'treasureBoxes'
-  )
-code3.save
+end
 
 puts "Created #{Code.count} posts"
+
 
