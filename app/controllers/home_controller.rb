@@ -1,14 +1,21 @@
 class HomeController < ApplicationController
   def top
-      @codes = [
-        'Kusayari lounched',
-        'clickNumber',
-        'treasureBoxes',
-        'treasureBoxes2',
-        'carRasing',
-        'carRasing2',
-        'adventure',
-      }
+    # title
+    @codes = [
+      'Kusayari lounched',
+      'clickNumber',
+      'treasureBoxes',
+      'treasureBoxes2',
+      'carRasing',
+      'carRasing2',
+      'adventure',
+    ]
+
+    # days
+    @days = [
+
+    ]
+
   end
 
   def about

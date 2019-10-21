@@ -19,10 +19,5 @@ code3 = Code.new(
   )
 code3.save
 
-
-
-
-
-
 puts "Created #{Code.count} posts"
 
