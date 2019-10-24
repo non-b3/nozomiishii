@@ -103,9 +103,9 @@
 
   // code p are showing up
   $('.code').hover(function(){
-    $(this).find('p').fadeIn();
+    $(this).find('p').animate({'opacity': 1}, 500);
   }, function(){
-    $(this).find('p').fadeOut();
+    $(this).find('p').animate({'opacity': 0}, 500);
   });
 });
 </script>

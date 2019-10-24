@@ -11,7 +11,7 @@ puts 'Deleted all the code data'
   # ['8', '28th OCT', 'niceMobileHeader'],
   # ['7', '27th OCT', 'niceHeader'],
   # ['6', '26th OCT', 'adventure'],
-  # ['5', '25th OCT', 'carRasing2'],
+  ['5', '25th OCT', 'carRasing2'],
   ['4', '24th OCT', 'carRasing'],
   ['3', '23rd OCT', 'treasureBoxes2'],
   ['2', '22nd OCT', 'treasureBoxes'],
@@ -24,5 +24,3 @@ puts 'Deleted all the code data'
 end
 
 puts "Created #{Code.count} posts"
-
-
