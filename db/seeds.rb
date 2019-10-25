@@ -10,7 +10,7 @@ puts 'Deleted all the code data'
   # ['9', '29th OCT', ''],
   # ['8', '28th OCT', 'niceMobileHeader'],
   # ['7', '27th OCT', 'niceHeader'],
-  # ['6', '26th OCT', 'adventure'],
+  ['6', '26th OCT', 'adventure'],
   ['5', '25th OCT', 'carRasing2'],
   ['4', '24th OCT', 'carRasing'],
   ['3', '23rd OCT', 'treasureBoxes2'],
