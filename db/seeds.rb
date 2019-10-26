@@ -2,24 +2,24 @@ Code.delete_all
 puts 'Deleted all the code data'
 
 [
-  # ['14', '3rd NOV', ''],
-  # ['13', '2nd NOV', ''],
-  # ['12', '1st NOV', ''],
-  # ['11', '31th OCT', ''],
-  # ['10', '30th OCT', ''],
-  # ['9', '29th OCT', ''],
-  # ['8', '28th OCT', 'niceMobileHeader'],
-  # ['7', '27th OCT', 'niceHeader'],
-  ['6', '26th OCT', 'adventure'],
-  ['5', '25th OCT', 'carRasing2'],
-  ['4', '24th OCT', 'carRasing'],
-  ['3', '23rd OCT', 'treasureBoxes2'],
-  ['2', '22nd OCT', 'treasureBoxes'],
-  ['1', '21st OCT', 'clickNumber'],
-  ['0', '20th OCT', 'kusayari lounched']
-].each do |id, date, title|
+  # ['014', '3rd NOV', ''],
+  # ['013', '2nd NOV', ''],
+  # ['012', '1st NOV', ''],
+  # ['011', '31th OCT', ''],
+  # ['010', '30th OCT', ''],
+  # ['009', '29th OCT', ''],
+  # ['008', '28th OCT', 'niceMobileHeader'],
+  # ['007', '27th OCT', 'niceHeader'],
+  ['006', '26th OCT', 'adventure'],
+  ['005', '25th OCT', 'carRasing2'],
+  ['004', '24th OCT', 'carRasing'],
+  ['003', '23rd OCT', 'treasureBoxes2'],
+  ['002', '22nd OCT', 'treasureBoxes'],
+  ['001', '21st OCT', 'clickNumber'],
+  ['000', '20th OCT', 'kusayari lounched']
+].each do |file_number, date, title|
   Code.create!(
-    { id: id, date: date, title: title }
+    { file_number: file_number, date: date, title: title }
   )
 end
 

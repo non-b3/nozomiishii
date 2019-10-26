@@ -15,12 +15,12 @@
     <h6>毎日いいかんじなゴミページを更新していきます。そう、GitHubへの草やりです。</h6>
   </div>
   <div class="codes">
-    <% @codes.each do |code| %>
+    <% @codes.each_with_index do |code, index| %>
       <div class="code">
-        <a href="https://nozomiishii.github.io/codeLab/day<%= code.id %>" target="_blank">
-          <img src="../assets/codes/day<%= code.id %>.png" alt="<%= code.id %>" >
+        <a href="https://nozomiishii.github.io/codeLab/day<%= code.file_number %>" target="_blank">
+          <img src="../assets/codes/day<%= code.file_number %>.png" alt="<%= code.file_number %>" >
         </a>
-        <p><%= code.date %> / Day <%= code.id %></p>
+        <p><%= code.date %> / Day <%= @codes.length - index - 1 %></p>
         <p>- <%= code.title %> -</p>
       </div>
     <% end %>

@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_21_185712) do
+ActiveRecord::Schema.define(version: 2019_10_26_152721) do
 
   create_table "codes", force: :cascade do |t|
     t.string "date"
     t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "file_number"
   end
 
 end
