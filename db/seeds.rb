@@ -2,6 +2,12 @@ Code.delete_all
 puts 'Deleted all the code data'
 
 [
+  # ['020', '9th NOV', ''],
+  # ['019', '8th NOV', ''],
+  # ['018', '7th NOV', ''],
+  # ['017', '6th NOV', ''],
+  # ['016', '5th NOV', ''],
+  # ['015', '4th NOV', ''],
   # ['014', '3rd NOV', ''],
   # ['013', '2nd NOV', ''],
   # ['012', '1st NOV', ''],
@@ -9,7 +15,7 @@ puts 'Deleted all the code data'
   # ['010', '30th OCT', ''],
   # ['009', '29th OCT', ''],
   # ['008', '28th OCT', 'niceMobileHeader'],
-  # ['007', '27th OCT', 'niceHeader'],
+  ['007', '27th OCT', 'niceHeader'],
   ['006', '26th OCT', 'adventure'],
   ['005', '25th OCT', 'carRasing2'],
   ['004', '24th OCT', 'carRasing'],
