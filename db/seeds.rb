@@ -7,7 +7,7 @@ puts 'Deleted all the code data'
   # ['018', '7th NOV', ''],
   # ['017', '6th NOV', 'battleship'],
   # ['016', '5th NOV', 'letMeSleep'],
-  # ['015', '4th NOV', 'zombie'],
+  ['015', '4th NOV', 'zombie'],
   ['014', '3rd NOV', 'waniAttack'],
   ['013', '2nd NOV', 'carRasing3'],
   ['012', '1st NOV', 'Harapeko'],
