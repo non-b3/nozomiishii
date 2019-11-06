@@ -2,7 +2,7 @@ Code.delete_all
 puts 'Deleted all the code data'
 
 [
-  # ['020', '9th NOV', ''],
+  # ['020', '9th NOV', 'Adventure2'],
   # ['019', '8th NOV', 'omikuji'],
   ['018', '7th NOV', 'risukun'],
   ['017', '6th NOV', 'battleship'],
