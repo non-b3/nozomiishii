@@ -2,8 +2,19 @@ Code.delete_all
 puts 'Deleted all the code data'
 
 [
+  # ['031', '20th NOV', ''],
+  # ['030', '19th NOV', ''],
+  # ['029', '18th NOV', ''],
+  # ['028', '17th NOV', ''],
+  # ['027', '16th NOV', ''],
+  # ['026', '15th NOV', ''],
+  # ['025', '14th NOV', ''],
+  # ['024', '13rd NOV', ''],
+  # ['023', '12nd NOV', ''],
+  # ['022', '11st NOV', ''],
+  # ['021', '10th NOV', ''],
   # ['020', '9th NOV', 'Adventure2'],
-  # ['019', '8th NOV', 'omikuji'],
+  ['019', '8th NOV', 'omikuji'],
   ['018', '7th NOV', 'risukun'],
   ['017', '6th NOV', 'battleship'],
   ['016', '5th NOV', 'letMeSleep'],
