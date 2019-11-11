@@ -10,7 +10,7 @@ puts 'Deleted all the code data'
   # ['026', '15th NOV', ''],
   # ['025', '14th NOV', ''],
   # ['024', '13rd NOV', 'htmlCanvas2'],
-  # ['023', '12nd NOV', 'htmlCanvas'],
+  ['023', '12nd NOV', 'htmlCanvas'],
   ['022', '11st NOV', 'pouchMonsters2'],
   ['021', '10th NOV', 'harvest'],
   ['020', '9th NOV', 'Adventure2'],
