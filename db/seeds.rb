@@ -4,8 +4,8 @@ puts 'Deleted all the code data'
 [
   # ['031', '20th NOV', ''],
   # ['030', '19th NOV', ''],
-  # ['029', '18th NOV', ''],
-  # ['028', '17th NOV', 'wordPower'],
+  # ['029', '18th NOV', 'garlic'],
+  ['028', '17th NOV', 'wordPower'],
   ['027', '16th NOV', 'goWatchMovie2'],
   ['026', '15th NOV', 'goWatchMovie'],
   ['025', '14th NOV', 'Dive'],
