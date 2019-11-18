@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def top
-    @codes = Code.all.order(created_at: :asc)
+    @codes = Code.all.order(created_at: :desc)
   end
 
   def about
