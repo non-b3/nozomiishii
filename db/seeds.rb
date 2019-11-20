@@ -34,7 +34,7 @@ puts 'Deleted all the code data'
   ['029', '18th NOV', 'garlic'],
   ['030', '19th NOV', 'timer'],
   ['031', '20th NOV', 'timer2'],
-  # ['032', '21st NOV', 'vsHero'],
+  ['032', '21st NOV', 'vsHero'],
   # ['033', '22nd NOV', 'reasureBoxes3'],
   # ['034', '23r0 NOV', 'trip'],
   # ['035', '24th NOV', ''],
