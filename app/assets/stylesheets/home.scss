@@ -101,8 +101,9 @@ header {
   line-height: 40px;
   text-align:center;
   background-color:rgba(222, 175, 63, 0.8);
+  overflow: hidden;
   p{
-    animation: newsAnimaiton 40s infinite linear;
+    animation: newsAnimaiton 40s infinite linear both;
   }
 }
 
