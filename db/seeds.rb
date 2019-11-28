@@ -43,7 +43,7 @@ puts 'Deleted all the code data'
   ['038', '27th NOV', 'vsHeroes'],
   ['039', '28th NOV', 'birdWatching'],
   ['040', '29th NOV', 'sun'],
-  # ['041', '30th NOV', ''],
+  # ['041', '30th NOV', 'sun2'],
   # ['042', '31th NOV', ''],
 
 ].each do |file_number, date, title|
