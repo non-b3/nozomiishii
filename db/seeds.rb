@@ -45,7 +45,7 @@ puts 'Deleted all the code data'
   ['040', '29th NOV', 'sun'],
   ['041', '30th NOV', 'sun2'],
   ['042', '1st DEC', 'trip2'],
-  # ['043', '2nd DEC', 'rabbitAndTurtle'],
+  ['043', '2nd DEC', 'rabbitAndTurtle'],
   # ['044', '3rd DEC', 'tarot'],
   # ['045', '4th DEC', ''],
   # ['046', '5th DEC', ''],
