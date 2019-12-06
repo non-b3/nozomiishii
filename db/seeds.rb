@@ -49,7 +49,7 @@ puts 'Deleted all the code data'
   ['044', '3rd DEC', 'tarot'],
   ['045', '4th DEC', 'tarot2'],
   ['046', '5th DEC', 'helloWorld'],
-  # ['047', '6th DEC', ''],
+  ['047', '6th DEC', 'stressful download system'],
   # ['048', '7th DEC', ''],
   # ['049', '8th DEC', ''],
   # ['050', '9th DEC', ''],
