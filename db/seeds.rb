@@ -55,6 +55,20 @@ puts 'Deleted all the code data'
   ['050', '9th DEC', 'nobiyuku'],
   # ['051', '10th DEC', ''],
   # ['052', '11st DEC', ''],
+  # ['053', '12nd DEC', ''],
+  # ['054', '13rd DEC', ''],
+  # ['055', '14th DEC', ''],
+  # ['056', '15th DEC', ''],
+  # ['057', '16th DEC', ''],
+  # ['058', '17th DEC', ''],
+  # ['059', '18th DEC', ''],
+  # ['060', '19th DEC', ''],
+  # ['061', '20th DEC', ''],
+  # ['062', '21th DEC', ''],
+  # ['063', '22th DEC', ''],
+  # ['064', '23th DEC', ''],
+  # ['065', '24th DEC', ''],
+  # ['066', '25th DEC', ''],
 ].each do |file_number, date, title|
   Code.create!(
     { file_number: file_number, date: date, title: title }
