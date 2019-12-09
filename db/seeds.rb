@@ -53,7 +53,7 @@ puts 'Deleted all the code data'
   ['048', '7th DEC', 'mamireru'],
   ['049', '8th DEC', 'paint'],
   ['050', '9th DEC', 'nobiyuku'],
-  # ['051', '10th DEC', ''],
+  # ['051', '10th DEC', 'nobanashi'],
   # ['052', '11st DEC', ''],
   # ['053', '12nd DEC', ''],
   # ['054', '13rd DEC', ''],
