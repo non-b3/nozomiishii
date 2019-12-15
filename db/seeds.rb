@@ -63,7 +63,7 @@ puts 'Deleted all the code data'
   # ['058', '17th DEC', 'colorBeam2'],
   # ['059', '18th DEC', 'colorBeam3'],
   # ['060', '19th DEC', 'koe'],
-  # ['061', '20th DEC', ''],
+  # ['061', '20th DEC', 'zombie2'],
   # ['062', '21th DEC', ''],
   # ['063', '22th DEC', ''],
   # ['064', '23th DEC', ''],
