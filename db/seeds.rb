@@ -66,7 +66,7 @@ puts 'Deleted all the code data'
   ['061', '20th DEC', 'zombie2'],
   ['062', '21th DEC', 'samayoh'],
   ['063', '22th DEC', 'karamaru'],
-  # ['064', '23th DEC', ''],
+  ['064', '23th DEC', 'earth'],
   # ['065', '24th DEC', ''],
   # ['066', '25th DEC', ''],
   # ['067', '26th DEC', ''],
