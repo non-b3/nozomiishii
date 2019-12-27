@@ -71,7 +71,7 @@ puts 'Deleted all the code data'
   ['066', '25th DEC', 'withHim'],
   ['067', '26th DEC', 'giraffesForcast'],
   ['068', '27th DEC', 'giraffesForcast2'],
-  # ['069', '28th DEC', ''],
+  ['069', '28th DEC', 'image'],
   # ['070', '29th DEC', ''],
   # ['071', '30th DEC', ''],
   # ['072', '31th DEC', ''],
