@@ -72,7 +72,7 @@ puts 'Deleted all the code data'
   ['067', '26th DEC', 'giraffesForcast'],
   ['068', '27th DEC', 'giraffesForcast2'],
   ['069', '28th DEC', 'image'],
-  # ['070', '29th DEC', ''],
+  ['070', '29th DEC', 'thanks2019'],
   # ['071', '30th DEC', ''],
   # ['072', '31th DEC', ''],
 ].each do |file_number, date, title|
