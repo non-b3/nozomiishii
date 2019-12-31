@@ -74,7 +74,7 @@ puts 'Deleted all the code data'
   ['069', '28th DEC', 'image'],
   ['070', '29th DEC', 'thanks2019'],
   ['071', '30th DEC', '10hours'],
-  # ['072', '31th DEC', ''],
+  ['072', '31th DEC', 'monster'],
 ].each do |file_number, date, title|
   Code.create!(
     { file_number: file_number, date: date, title: title }
