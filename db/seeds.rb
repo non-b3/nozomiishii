@@ -75,7 +75,7 @@ puts 'Deleted all the code data'
   ['070', '29th DEC', 'thanks2019'],
   ['071', '30th DEC', '10hours'],
   ['072', '31st DEC', 'monster'],
-  # ['073', '1st JAN', ''],
+  ['073', '1st JAN', 'newYear'],
   # ['074', '2nd JAN', ''],
   # ['075', '3rd JAN', ''],
   # ['076', '4th JAN', ''],
