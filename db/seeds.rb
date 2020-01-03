@@ -79,7 +79,7 @@ puts 'Deleted all the code data'
   ['074', '2nd JAN', 'desires'],
   ['075', '3rd JAN', 'desires2'],
   ['076', '4th JAN', 'monsters'],
-  # ['077', '5th JAN', ''],
+  # ['077', '5th JAN', 'colorBeam4'],
   # ['078', '6th JAN', ''],
   # ['079', '7th JAN', ''],
   # ['080', '8th JAN', ''],
