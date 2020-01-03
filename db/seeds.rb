@@ -78,7 +78,7 @@ puts 'Deleted all the code data'
   ['073', '1st JAN', 'newYear'],
   ['074', '2nd JAN', 'desires'],
   ['075', '3rd JAN', 'desires2'],
-  # ['076', '4th JAN', ''],
+  ['076', '4th JAN', 'monsters'],
   # ['077', '5th JAN', ''],
   # ['078', '6th JAN', ''],
   # ['079', '7th JAN', ''],
