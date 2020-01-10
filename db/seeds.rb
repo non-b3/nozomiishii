@@ -85,7 +85,7 @@ puts 'Deleted all the code data'
   ['080', '8th JAN', 'safari'],
   ['081', '9th JAN', 'ningen'],
   ['082', '10th JAN', 'justice'],
-  # ['083', '11th JAN', ''],
+  # ['083', '11th JAN', 'ufo'],
   # ['084', '12th JAN', ''],
   # ['085', '13th JAN', ''],
   # ['086', '14th JAN', ''],
