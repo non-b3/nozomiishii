@@ -90,7 +90,7 @@ puts 'Deleted all the code data'
   ['085', '13th JAN', 'where'],
   ['086', '14th JAN', 'photo'],
   ['087', '15th JAN', 'photo2'],
-  # ['088', '16th JAN', ''],
+  ['088', '16th JAN', 'video'],
   # ['089', '17th JAN', ''],
   # ['090', '18th JAN', ''],
   # ['091', '19th JAN', ''],
