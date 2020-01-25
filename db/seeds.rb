@@ -98,7 +98,7 @@ puts 'Deleted all the code data'
   ['093', '21st JAN', 'noise'],
   ['094', '22nd JAN', 'mosaic'],
   ['095', '23rd JAN', 'duel'],
-  # ['096', '24th JAN', ''],
+  ['096', '24th JAN', 'colorBeam5'],
   # ['097', '25th JAN', ''],
   # ['098', '26th JAN', ''],
   # ['099', '27th JAN', ''],
