@@ -102,7 +102,7 @@ puts 'Deleted all the code data'
   ['097', '25th JAN', 'colorBeam6'],
   ['098', '26th JAN', 'INVITATION'],
   ['099', '27th JAN', 'ladybird_club'],
-  # ['100', '28th JAN', ''],
+  ['100', '28th JAN', 'KUSAYARI'],
 ].each do |file_number, date, title|
   Code.create!(
     { file_number: file_number, date: date, title: title }
