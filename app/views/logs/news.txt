@@ -10,3 +10,6 @@ NEWS: KUSAYARI has been continued over a month!
 11_23
 🦆NEWS: KUSAYARI has been continued over a month!
 ** with animation @keyframes newsAnimaiton
+
+1_28
+🐿NEWS: KUSAYARI has been completed for 100 days!!
