@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      height: 100vh;
+      width: 100vw;
+      /* display: grid;
+      grid-template-columns: repeat(10, 1fr); */
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .main img {
+      width: 10%;
+      /* filter: blur(10px); */
+    }
+
+    .title {
+
+      position: absolute;
+      top: 0;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 72px;
+      color: white;
+      /* background: rgba(0, 0, 0, 0); */
+      /* -webkit-text-stroke: 10px #020202; */
+    }
+
+    .box {
+      width: 100vw;
+      height: 33vh;
+      /* background: rgba(0, 0, 0, 0.9); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-shadow: blue 1px 5px 0px, red -5px 1px 0px,
+        yellow 5px -1px 0px, green -1px -5px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+  </div>
+  <div class="title">
+    <div class="box">
+      <h1>KUSAYARI</h1>
+    </div>
+  </div>
+  <script>
+    const main = document.querySelector('.main');
+    let html = ""
+    for (let i = 0; i < 100; i++) {
+      let img;
+      if (i < 10) {
+        img = `
+          <img src="day00${i}.png">
+        `
+      } else {
+        img = `
+          <img src="day0${i}.png">
+        `
+      }
+      html += img;
+    }
+    main.innerHTML = html;
+  </script>
+</body>
+
+</html>
